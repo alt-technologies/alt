@@ -58,7 +58,7 @@ const Footer = () => {
             <div className="footer-widget widget_newsletter wow fadeInUp delay-0-6s">
               <h4 className="footer-title">Newsletter</h4>
               <p>
-                Sed perspiciatis unde omnste natus error voluptatem accusante.
+              Stay informed and inspired: subscribe to our newsletter today!
               </p>
               <form onSubmit={(e) => e.preventDefault()} action="#">
                 <label htmlFor="email">
