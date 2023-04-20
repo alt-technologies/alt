@@ -1,5 +1,6 @@
 import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
+import Form from "@/components/Form.js";
 const Contact = () => {
   return (
     <Layout>
@@ -83,9 +84,15 @@ const Contact = () => {
           />
         </div>
       </div>
+      <Form/>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       {/* Location Map Area End */}
       {/* Contact Form Start */}
-      <section className="contact-page-form pb-130 rpb-100">
+      {/* <section className="contact-page-form pb-130 rpb-100">
         <div className="container">
           <div className="contact-form-wrap form-style-two bgc-lighter wow fadeInUp delay-0-2s">
             <div className="row text-center mb-35 justify-content-center">
@@ -94,12 +101,12 @@ const Contact = () => {
                   <span className="sub-title mb-15">Get In Touch</span>
                   <h2>Send Us Message</h2>
                 </div>
-               {/*  <p>
+               {  <p>
                   Sed ut perspiciatis unde omnis natus errorsit voluptatem
                   accusantium doloremque laudantium aperiam eaque quae abillo
                   inventore veritatis quasi architecto beatae vitae dicta sunt
                   explicabo
-                </p> */}
+                </p> }
               </div>
             </div>
             <form
@@ -197,7 +204,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };
