@@ -39,7 +39,7 @@ const Form = () => {
     e.preventDefault();
      setProgressRes(true);
     try {
-      const url = `${baseUrl}/api/contact`;
+      const url = `/api/contact`;
       const { name, email, number, subject, text } = contact;
       const payload = {
         name,
