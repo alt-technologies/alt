@@ -16,7 +16,7 @@ function sendMail(mailto, mailsubject, mailhtml, text, attachments) {
             subject: mailsubject,
             html: mailhtml,
             text: text,
-            replyTo: "zahidkhanb9111@gmail.com",
+            replyTo: "zahid.rsldubai@gmail.com",
             attachments: attachments,
         };
         transporter.sendMail(mailOptions, function (error, info) {
