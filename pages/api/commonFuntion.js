@@ -7,7 +7,7 @@ function sendMail(mailto, mailsubject, mailhtml, text, attachments) {
             service: 'gmail',
             auth: {
                 user: "zahid.rsldubai@gmail.com",
-                pass: "etqxlhzqhdoqnyrg",
+                pass: "jmkziuhdphojzzop",
             }
         });
         var mailOptions = {
