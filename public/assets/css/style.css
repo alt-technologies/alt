@@ -59,8 +59,8 @@ body {
   font-family: "Roboto", sans-serif;
   --base-color: #838694;
   --heading-color: #1b1f2e;
-  --primary-color: #30f0b6;
-  --secondary-color: #674df3;
+  --primary-color: black;
+  --secondary-color: #F7931E;
   --lighter-color: #f7f7f9;
   --border-color: rgba(21, 16, 31, 0.1); }
 
@@ -330,7 +330,7 @@ a.theme-btn {
   -ms-flex-pack: center;
   justify-content: center;
   text-transform: capitalize;
-  background: var(--secondary-color); }
+  background: #F7931E; }
   .theme-btn i,
   a.theme-btn i {
     -webkit-transition: 0.5s;

@@ -34,9 +34,9 @@ const DefaultHeader = () => {
               <Search />
             </div>
             {/* Menu Button */}
-            <div className="menu-btns">
+            <div className="menu-btns" style={{color:"black"}}>
               <Link legacyBehavior href="/contact">
-                <a className="theme-btn">
+                <a className="theme-btn" style={{color:"white"}}>
                   Get a Quote <i className="fas fa-long-arrow-right" />
                 </a>
               </Link>

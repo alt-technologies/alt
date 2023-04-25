@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const HeaderTop = () => {
   return (
-    <div className="header-top-wrap bgc-secondary">
+    <div className="header-top-wrap" style={{backgroundColor:"#F7931E"}}>
       <div className="container-fluid">
         <div className="header-top">
           <div className="text">
